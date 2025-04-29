@@ -28,53 +28,7 @@ The application is built around several key components:
 - `generate_response_chunks()`: Creates streaming response chunks for a natural chat experience
 - `main()`: The core application runner that sets up the Streamlit interface
 
-## Setup Instructions
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/ishan-ls-bz/AI_chatbot.git
-   cd AI_chatbot
-   ```
-
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Create a `secrets.toml` file in the `.streamlit` directory with your API keys:
-   ```toml
-   [api_keys]
-   openai = "your-openai-api-key"
-   pinecone = "your-pinecone-api-key"
-   groq = "your-groq-api-key"
-
-   [credentials]
-   username = "your-username"
-   password = "your-password"
-   ```
-
-4. Run the application:
-   ```
-   streamlit run streamlit_app.py
-   ```
-
-## Making Changes and Pushing to GitHub
-
-After making changes to your code:
-
-```bash
-# Check modified files
-git status
-
-# Add changes
-git add .
-
-# Commit changes with a descriptive message
-git commit -m "Description of changes"
-
-# Push to GitHub
-git push origin main
-```
 
 ## Technology Stack
 
